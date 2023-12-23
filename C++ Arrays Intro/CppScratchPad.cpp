@@ -6,7 +6,10 @@ using std::endl;
 // ---------------------------------------- C++ Arrays Intro ------------------------------------------
 // ref link:https://www.youtube.com/watch?v=dcKD06RR5ZU&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
-
+void main()
+{
+	int age1, age2, age3, age4;
+}
 
 
 
