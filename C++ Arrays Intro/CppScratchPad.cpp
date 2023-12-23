@@ -8,7 +8,7 @@ using std::endl;
 
 void main()
 {
-	int age1, age2, age3, age4;
+	int age1, age2, age3, age4;		// 4 bytes for every age in stack
 }
 
 
