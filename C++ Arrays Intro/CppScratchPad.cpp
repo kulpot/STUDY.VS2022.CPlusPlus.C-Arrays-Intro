@@ -6,6 +6,9 @@ using std::endl;
 // ---------------------------------------- C++ Arrays Intro ------------------------------------------
 // ref link:https://www.youtube.com/watch?v=dcKD06RR5ZU&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
+//array =  a group of objects ex: int a[3] ={1,2,3};
+
+
 void main()
 {										// int = to 4 bytes
 	//int age1, age2, age3, age4;		// 4 bytes for every age in stack
@@ -14,7 +17,11 @@ void main()
 	ages[1] = 32;
 	ages[2] = 55;
 	ages[3] = 1;
-}
+	for (int i = 0; i < 4; i++)
+		cout << ages[i] << endl;	//21
+									//32
+									//55
+}									//1
 
 
 
@@ -46,33 +53,33 @@ void main()
 // ----------------------------- C++ - Using A Pointer to the Stack to Modify Another Function Instance's Data -------------------------------------
 // ref link:https://www.youtube.com/watch?v=zPrU9AHerlg&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
-void function2()
-{
-	int f2Int;
-	int* p = &f2Int;
-	for (int i = 0; i < 20; i++)
-		//cout << *(p + i) << endl;
-	{
-		if (*(p + i) == 92)
-		{
-			*(p + i) = 667;
-			break;
-		}
-	}
-}
-
-void function1()
-{
-	int f1Int = 92;
-	cout << f1Int << endl;
-	function2();
-	cout << f1Int << endl;
-}
-
-void main()
-{
-	function1();
-}
+//void function2()
+//{
+//	int f2Int;
+//	int* p = &f2Int;
+//	for (int i = 0; i < 20; i++)
+//		//cout << *(p + i) << endl;
+//	{
+//		if (*(p + i) == 92)
+//		{
+//			*(p + i) = 667;
+//			break;
+//		}
+//	}
+//}
+//
+//void function1()
+//{
+//	int f1Int = 92;
+//	cout << f1Int << endl;
+//	function2();
+//	cout << f1Int << endl;
+//}
+//
+//void main()
+//{
+//	function1();
+//}
 
 
 
