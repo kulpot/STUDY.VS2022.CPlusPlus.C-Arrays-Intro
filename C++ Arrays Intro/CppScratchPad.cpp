@@ -7,9 +7,9 @@ using std::endl;
 // ref link:https://www.youtube.com/watch?v=dcKD06RR5ZU&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=5
 
 void main()
-{
+{										// int = to 4 bytes
 	//int age1, age2, age3, age4;		// 4 bytes for every age in stack
-	int ages[4];
+	int ages[4];						// 4 bytes for every aray of age in stack
 }
 
 
