@@ -10,6 +10,10 @@ void main()
 {										// int = to 4 bytes
 	//int age1, age2, age3, age4;		// 4 bytes for every age in stack
 	int ages[4];						// 4 bytes for every aray of age in stack
+	ages[0] = 21;
+	ages[1] = 32;
+	ages[2] = 55;
+	ages[3] = 1;
 }
 
 
